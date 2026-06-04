@@ -1,0 +1,36 @@
+# --------------------------------------------------------------------------
+# 802.11a/g SoP Detector Evaluation -- .gitignore
+# --------------------------------------------------------------------------
+
+
+# Ephemeral build / run logs
+*.log
+
+# LaTeX intermediate files (keep the .tex and .pdf, drop the rest)
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.claude/
+
+# MATLAB session artefacts
+*.asv
+*.m~
+
+
+# Local Python helpers we used for cleanup (do not pollute the repo)
+__pycache__/
+*.pyc
